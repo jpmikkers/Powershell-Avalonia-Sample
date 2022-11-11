@@ -1,5 +1,7 @@
 # Powershell-Avalonia-Sample
-Sample on how to create an Avalonia 11 UI directly from powershell. To run this script successfully you must place it in a folder containing all the avalonia assemblies (should also include the 'runtimes' folder). In addition to that, copy libHarfBuzzSharp.dll and libSkiaSharp.dll from runtimes/win-x64/native to the same location as the script. For reference, here's the complete content of my working sample:
+Sample on how to create an Avalonia 11 UI directly from powershell. I tested the script using powershell 7.3 (x64) on Windows 11 professional.
+
+To run this script successfully you must place it in a folder containing all the avalonia assemblies (should also include the 'runtimes' folder). In addition to that, copy libHarfBuzzSharp.dll and libSkiaSharp.dll from runtimes/win-x64/native to the same location as the script. For reference, here's the complete content of my working sample:
 
     runtimes (folder)
     avalonia_demo.ps1
